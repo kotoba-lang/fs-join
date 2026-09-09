@@ -5,10 +5,10 @@
          :git/sha "73bdb13ae7a3d004b44bca08be03a3191157a38f"}
         io.github.kotoba-lang/fs-sep
         {:git/url "https://github.com/kotoba-lang/fs-sep.git"
-         :git/sha "b33af25990c5b5d423dce7f647576cead7993002"}
+         :git/sha "3fec91a22dd07fc07e941dd342ac809e2abad0db"}
         io.github.kotoba-lang/fs-split
         {:git/url "https://github.com/kotoba-lang/fs-split.git"
-         :git/sha "24f2b92005aa216b45ea4f3bcf11ec2e7be60c1c"}}
+         :git/sha "2bf33c8e48d3316ca345a1cf59347f7b35f9882c"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner

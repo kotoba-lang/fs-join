@@ -7,7 +7,9 @@
 "
   (:require [kotoba.lang.text :as str]
             [kotoba.fs.sep :refer [sep]]
-            [kotoba.fs.split :refer [split]]))
+            [kotoba.fs.split :refer [split]])
+  #?(:clj  (:require [kotoba.lang.text :as str])
+     :cljs (:require [kotoba.lang.text :as str])))
 
 (defn join
   "Join path components with the separator. An absolute first component makes
